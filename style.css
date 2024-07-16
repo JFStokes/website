@@ -1,0 +1,29 @@
+h1 {
+    color: #A7D129;
+    font-family: monospace;
+    text-align: center;
+    font-size: 36px;
+}
+
+h3 {
+    color: #A7D129;
+    font-family: monospace;
+    text-align: center;
+    font-size: 22px;
+}
+
+p {
+    color: #A7D129;
+    font-family: monospace;
+}
+
+p.intro {
+    border-style: ridge;
+    border-width: 2px;
+    border-color: #616F39;
+
+}
+
+p.intro_date {
+    background-color: #3E432E;
+}
