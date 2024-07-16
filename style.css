@@ -18,12 +18,18 @@ p {
 }
 
 p.intro {
+    font-size: 14px;
     border-style: ridge;
     border-width: 2px;
     border-color: #616F39;
-
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 25px;
 }
 
 p.intro_date {
+    font-size: 14px;
     background-color: #3E432E;
+    margin-left: 200px;
+    margin-right: 200px;
 }
