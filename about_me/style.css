@@ -23,6 +23,11 @@ div.top div {
     float:none;
 }
 
+#my_pic {
+    display: flex;
+    justify-content: center;
+}
+
 p {
     color: #A7D129;
     font-family: monospace;
@@ -45,7 +50,6 @@ p.intro_date {
     margin-right: 200px;
 }
 
-
 a.basic_button:link, a.basic_button:visited {
     background-color: #3E432E;
     font-size: 16px;
@@ -56,3 +60,4 @@ a.basic_button:link, a.basic_button:visited {
     text-decoration: none;
     display: block;
 }
+
