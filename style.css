@@ -80,7 +80,7 @@ a.basic_button:hover {
 .subject_button_1 {
     grid-area: button1;
     justify-self: right;
-    background-image: url(cert.jpg);
+    background-image: url(a_plus.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 150px;
@@ -99,10 +99,10 @@ a.basic_button:hover {
 .subject_button_1:hover {
     grid-area: button1;
     justify-self: right;
-    background-image: url(cert.jpg);
+    background-image: url(a_plus.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 150px;
+    background-size: 148px;
     background-color: #616F39;
     font-size: 24px;
     font-weight: bold;
@@ -112,7 +112,7 @@ a.basic_button:hover {
     text-decoration: none;
     width: 148px;
     height: 148px;
-    line-height: 150px;
+    line-height: 148px;
     border-style: ridge;
     border-width: 2px;
     border-color: #616F39;
