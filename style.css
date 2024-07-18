@@ -45,6 +45,12 @@ p.intro_date {
     margin-right: 200px;
 }
 
+p.header {
+    color: #A7D129;
+    font-family: monospace;
+    text-align: center;
+    font-size: 22px;
+}
 
 a.basic_button:link, a.basic_button:visited {
     background-color: #3E432E;
@@ -55,4 +61,129 @@ a.basic_button:link, a.basic_button:visited {
     text-align: center;
     text-decoration: none;
     display: block;
+}
+
+a.basic_button:hover {
+    background-color: black;
+    font-size: 16px;
+    color: #A7D129;
+    font-family: monospace;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: #616F39;
+}
+
+.subject_button_1 {
+    grid-area: button1;
+    justify-self: right;
+    background-image: url(cert.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+    background-color: #3E432E;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    font-family: monospace;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+}
+
+.subject_button_1:hover {
+    grid-area: button1;
+    justify-self: right;
+    background-image: url(cert.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px;
+    background-color: #616F39;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    font-family: monospace;
+    text-align: center;
+    text-decoration: none;
+    width: 148px;
+    height: 148px;
+    line-height: 150px;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: #616F39;
+}
+
+.subject_button_2 {
+    grid-area: button2;
+    background-color: #3E432E;
+    font-size: 16px;
+    color: #A7D129;
+    font-family: monospace;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+}
+
+.subject_button_3 {
+    grid-area: button3;
+    justify-self: right;
+    background-color: #3E432E;
+    font-size: 16px;
+    color: #A7D129;
+    font-family: monospace;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+}
+
+.subject_button_4 {
+    grid-area: button4;
+    background-color: #3E432E;
+    font-size: 16px;
+    color: #A7D129;
+    font-family: monospace;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+}
+
+.subject_area {
+    /* width:100%;
+    overflow:auto; */
+    display: grid;
+    grid: 
+    'button1 button2'
+    'button3 button4';
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+/* div.subject_area div {  
+    margin: auto;
+    height: 150px;
+    float:none;
+} */
+
+a.subject_button:link, a.subject_button:visited {
+    background-color: #3E432E;
+    font-size: 16px;
+    color: #A7D129;
+    font-family: monospace;
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
 }

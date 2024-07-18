@@ -61,3 +61,17 @@ a.basic_button:link, a.basic_button:visited {
     display: block;
 }
 
+a.basic_button:hover {
+    background-color: black;
+    font-size: 16px;
+    color: #A7D129;
+    font-family: monospace;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: #616F39;
+}
+
