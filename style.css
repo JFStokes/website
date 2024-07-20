@@ -5,6 +5,14 @@ h1 {
     font-size: 36px;
 }
 
+h2 {
+    color: #A7D129;
+    font-family: monospace;
+    text-align: center;
+    font-size: 30px;
+    padding: -50px;
+}
+
 h3 {
     color: #A7D129;
     font-family: monospace;
@@ -28,14 +36,15 @@ p {
     font-family: monospace;
 }
 
-p.intro {
+.intro {
     font-size: 14px;
     border-style: ridge;
     border-width: 2px;
     border-color: #616F39;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 p.intro_date {
@@ -121,6 +130,10 @@ a.basic_button:hover {
 .subject_button_2 {
     grid-area: button2;
     background-color: #3E432E;
+    background-image: url(news_image.png);
+    background-repeat: none;
+    background-position: center;
+    background-size: 150px;
     font-size: 16px;
     color: #A7D129;
     font-family: monospace;
@@ -130,6 +143,8 @@ a.basic_button:hover {
     height: 150px;
     line-height: 150px;
 }
+
+
 
 .subject_button_3 {
     grid-area: button3;
@@ -159,8 +174,6 @@ a.basic_button:hover {
 }
 
 .subject_area {
-    /* width:100%;
-    overflow:auto; */
     display: grid;
     grid: 
     'button1 button2'
@@ -168,12 +181,6 @@ a.basic_button:hover {
     grid-gap: 10px;
     padding: 10px;
 }
-
-/* div.subject_area div {  
-    margin: auto;
-    height: 150px;
-    float:none;
-} */
 
 a.subject_button:link, a.subject_button:visited {
     background-color: #3E432E;
