@@ -87,11 +87,29 @@ img.page_logo {
 
 /* ---------- CONTENTS ---------- */
 
-/* DROP DOWN */
-.drop_down {
-    border: none;
-    outline: none;
-    align-self: center;
+.a_plus_items {
+    color: #A7D129;
+    font-family: monospace;
+}
+
+.active:link, :visited{
+    font-size: 22px;
+    color: #A7D129;
+    font-family: monospace;
+    text-decoration: none;
+}
+
+.active:hover {
+    font-size: 22px;
+    color: #A7D129;
+    font-family: monospace;
+    text-decoration: underline;
+}
+
+.not_active {
+    font-size: 22px;
+    color: grey;
+    font-family: monospace;
 }
 
 /* ---------- DATE & COPYRIGHT ---------- */
