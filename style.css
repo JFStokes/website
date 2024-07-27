@@ -36,15 +36,19 @@ p {
     font-family: monospace;
 }
 
+hr {
+    border-color: #A7D129;
+    margin: 5% 5% 0px 5%;
+}
+
 .intro {
     font-size: 14px;
     border-style: ridge;
     border-width: 2px;
     border-color: #616F39;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-left: 25px;
-    padding-right: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0px 25px 0px 25px;
 }
 
 p.intro_date {
@@ -86,93 +90,6 @@ a.basic_button:hover {
     border-color: #616F39;
 }
 
-.subject_button_1 {
-    grid-area: button1;
-    justify-self: right;
-    background-image: url(a_plus.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 150px;
-    background-color: #3E432E;
-    font-size: 24px;
-    font-weight: bold;
-    color: black;
-    font-family: monospace;
-    text-align: center;
-    text-decoration: none;
-    width: 150px;
-    height: 150px;
-    line-height: 150px;
-}
-
-.subject_button_1:hover {
-    grid-area: button1;
-    justify-self: right;
-    background-image: url(a_plus.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 148px;
-    background-color: #616F39;
-    font-size: 24px;
-    font-weight: bold;
-    color: black;
-    font-family: monospace;
-    text-align: center;
-    text-decoration: none;
-    width: 148px;
-    height: 148px;
-    line-height: 148px;
-    border-style: ridge;
-    border-width: 2px;
-    border-color: #616F39;
-}
-
-.subject_button_2 {
-    grid-area: button2;
-    background-color: #3E432E;
-    background-image: url(news_image.png);
-    background-repeat: none;
-    background-position: center;
-    background-size: 150px;
-    font-size: 16px;
-    color: #A7D129;
-    font-family: monospace;
-    text-align: center;
-    text-decoration: none;
-    width: 150px;
-    height: 150px;
-    line-height: 150px;
-}
-
-
-
-.subject_button_3 {
-    grid-area: button3;
-    justify-self: right;
-    background-color: #3E432E;
-    font-size: 16px;
-    color: #A7D129;
-    font-family: monospace;
-    text-align: center;
-    text-decoration: none;
-    width: 150px;
-    height: 150px;
-    line-height: 150px;
-}
-
-.subject_button_4 {
-    grid-area: button4;
-    background-color: #3E432E;
-    font-size: 16px;
-    color: #A7D129;
-    font-family: monospace;
-    text-align: center;
-    text-decoration: none;
-    width: 150px;
-    height: 150px;
-    line-height: 150px;
-}
-
 .subject_area {
     display: grid;
     grid: 
@@ -182,15 +99,58 @@ a.basic_button:hover {
     padding: 10px;
 }
 
-a.subject_button:link, a.subject_button:visited {
+.projects_area {
+    width: 100%;
+    overflow: auto;
+    /* border-style: ridge;
+    border-width: 2px;
+    border-color: #A7D129; */
+}
+
+.projects_area div {
+    width: 156px;
+    margin: auto;
+    float: none;
+    /* border-style: ridge;
+    border-width: 2px;
+    border-color: #A7D129; */
+}
+
+.project_button {
+    display: inline-block;
+    margin: 0px;
     background-color: #3E432E;
     font-size: 16px;
-    color: #A7D129;
     font-family: monospace;
+    color: #A7D129;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: #3E432E;
     width: 150px;
     height: 150px;
-    padding: 30px;
     text-align: center;
-    vertical-align: middle;
     text-decoration: none;
+    line-height: 150px;
+    
+}
+
+.project_button:hover {
+    background-color: #3E432E;
+    font-size: 16px;
+    font-family: monospace;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: #A7D129;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#comptia_a_plus {
+    background-image: url(a_plus.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 148px;
+    background-color: #3E432E;
 }
