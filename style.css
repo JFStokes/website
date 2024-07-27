@@ -113,7 +113,7 @@ a.basic_button:hover {
     float: none;
     /* border-style: ridge;
     border-width: 2px;
-    border-color: #A7D129; */
+    border-color: red; */
 }
 
 .project_button {
@@ -149,6 +149,30 @@ a.basic_button:hover {
 
 #comptia_a_plus {
     background-image: url(a_plus.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 148px;
+    background-color: #3E432E;
+}
+
+#comptia_sec_plus {
+    background-image: url(previous_projects/sec_plus_img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 148px;
+    background-color: #3E432E;
+}
+
+#comptia_net_plus {
+    background-image: url(future_projects/net_plus_img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 148px;
+    background-color: #3E432E;
+}
+
+#raspberry-pi {
+    background-image: url(future_projects/Raspberry_Pi-Logo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 148px;
