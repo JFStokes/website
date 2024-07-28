@@ -27,7 +27,7 @@ p {
 
 hr {
     border-color: #A7D129;
-    margin: 5% 5% 0px 5%;
+    margin: 5% 2% 0px 2%;
 }
 
 .intro {
@@ -35,16 +35,9 @@ hr {
     border-style: ridge;
     border-width: 2px;
     border-color: #616F39;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
     padding: 0px 25px 0px 25px;
-}
-
-p.intro_date {
-    font-size: 14px;
-    background-color: #3E432E;
-    margin-left: 200px;
-    margin-right: 200px;
 }
 
 p.header {
@@ -122,7 +115,7 @@ a.basic_button:hover {
 
 .project_button {
     display: inline-block;
-    margin: 0px;
+    margin: 0px 2px 0px 2px;
     background-color: #3E432E;
     font-size: 16px;
     font-family: monospace;
@@ -139,6 +132,7 @@ a.basic_button:hover {
 }
 
 .project_button:hover {
+    margin: 0px 2px 0px 2px;
     background-color: #3E432E;
     font-size: 16px;
     font-family: monospace;
@@ -234,5 +228,22 @@ a.basic_button:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 148px;
+    background-color: #3E432E;
+}
+
+#htb {
+    background-image: url(future_projects/htb_logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 148px;
+    background-color: #3E432E;
+}
+
+/* ####################-FOOTER-#################### */
+p.footer {
+    margin: 2% 2% 2% 2%;
+    padding-left: 5px;
+    font-size: 14px;
+    text-align: left;
     background-color: #3E432E;
 }
