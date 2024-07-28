@@ -169,6 +169,14 @@ a.basic_button:hover {
     background-color: #3E432E;
 }
 
+#current_python {
+    background-image: url(current_projects/python_logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 148px;
+    background-color: #3E432E;
+}
+
 /* ####################-PREVIOUS PROJECTS-#################### */
 
 #comptia_sec_plus {

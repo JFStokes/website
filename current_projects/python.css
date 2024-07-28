@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: #A7D129;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 1%;
+    font-size: 36px;
+}
+
+div {
+    display: flex;
+    margin: 2% 2% 2% 2%;
+    /* border-style: ridge;
+    border-width: 2px;
+    border-color: red; */
+    /* align-items: center; */
+    justify-content: center;
+}
+
+/* ####################-HEADER-#################### */
+
+/* ####################-NAVIGATION-#################### */
+a.nav_button:link, a.nav_button:visited {
+    display: block;
+    width: 10%;
+    margin: 0;
+    /* border-style: ridge;
+    border-width: 2px;
+    border-color: red; */
+    padding: 14px;
+    background-color: #3E432E;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+a.nav_button:hover {
+    display: block;
+    width: 10%;
+    margin: 0;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: #616F39;
+    padding: 12px;
+    background-color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* ####################-CONTENT-#################### */
+
+/* ---------- TOP LOGO ---------- */
+img.page_logo {
+    display: block;
+    margin: 0px auto 2% auto;
+}
+
+/* ---------- Python Projects ---------- */
+article.python_project {
+    margin: 1%;
+    border-style: ridge;
+    border-width: 4px;
+    border-color: #616F39;
+    padding: 8px;
+    font-weight: bold;
+}
+
+/* ####################-FOOTER-#################### */
+p.footer {
+    margin: 2% 2% 2% 2%;
+    padding-left: 5px;
+    font-size: 14px;
+    text-align: left;
+    background-color: #3E432E;
+}
