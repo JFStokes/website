@@ -62,9 +62,14 @@ div.top {
 }
 
 div.top div {
-    width:10%;  
+    display: flex;
+    width:90%;  
+    justify-content: center;
     margin: auto;
     float:none;
+    /* border-style: ridge;
+    border-width: 2px;
+    border-color: red; */
 }
 
 a.basic_button:link, a.basic_button:visited {
@@ -76,6 +81,7 @@ a.basic_button:link, a.basic_button:visited {
     text-align: center;
     text-decoration: none;
     display: block;
+    width: 10%;
 }
 
 a.basic_button:hover {
@@ -90,6 +96,7 @@ a.basic_button:hover {
     border-style: ridge;
     border-width: 2px;
     border-color: #616F39;
+    width: 10%;
 }
 
 /* ####################-PROJECTS AREA-#################### */

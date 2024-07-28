@@ -46,6 +46,7 @@ a.basic_button:link, a.basic_button:visited {
     text-align: center;
     text-decoration: none;
     display: block;
+    width: 10%;
 }
 
 a.basic_button:hover {
@@ -60,6 +61,7 @@ a.basic_button:hover {
     border-style: ridge;
     border-width: 2px;
     border-color: #616F39;
+    width: 10%;
 }
 
 /* ---------- CONTENT ---------- */
@@ -69,10 +71,27 @@ img.page_logo {
     margin-right: auto;
 }
 
+.degree_desc {
+    font-size: 14px;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: #616F39;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0px 25px 0px 25px;
+}
+
+li.obj {
+    text-align: left;
+}
+
 /* ---------- FOOTER ---------- */
 .main_footer {
     font-size: 14px;
+    text-align: left;
     background-color: #3E432E;
+    margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
+    padding-left: 5px;
 }
