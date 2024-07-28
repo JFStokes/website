@@ -1,0 +1,78 @@
+.standard_body {
+    background-color: black;
+    font-family: monospace;
+    color: #A7D129;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+/* ---------- NAVIGATION ---------- */
+.nav_bar {
+    width: 100%;
+    overflow: auto;
+    /* border-style: ridge;
+    border-width: 2px;
+    border-color: red; */
+}
+
+.nav_bar div {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    margin: auto;
+    float: none;
+    /* border-style: ridge;
+    border-width: 2px;
+    border-color: red; */
+}
+
+a.basic_button:link, a.basic_button:visited {
+    background-color: #3E432E;
+    font-size: 16px;
+    color: #A7D129;
+    font-family: monospace;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+a.basic_button:hover {
+    background-color: black;
+    font-size: 16px;
+    color: #A7D129;
+    font-family: monospace;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: #616F39;
+}
+
+/* ---------- CONTENT ---------- */
+img.page_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ---------- FOOTER ---------- */
+.main_footer {
+    font-size: 14px;
+    background-color: #3E432E;
+    margin-left: 5%;
+    margin-right: 5%;
+}
