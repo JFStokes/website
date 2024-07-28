@@ -204,3 +204,35 @@ a.basic_button:hover {
     background-size: 148px;
     background-color: #3E432E;
 }
+
+#flask {
+    background-image: url(future_projects/flask_logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 148px;
+    background-color: #3E432E;
+}
+
+#ubuntu {
+    background-image: url(future_projects/ubuntu_logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 148px;
+    background-color: #3E432E;
+}
+
+#c_sharp {
+    background-image: url(future_projects/cs_logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 148px;
+    background-color: #3E432E;
+}
+
+#kali {
+    background-image: url(future_projects/kali_logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 148px;
+    background-color: #3E432E;
+}
