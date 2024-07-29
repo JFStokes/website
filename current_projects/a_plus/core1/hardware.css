@@ -27,7 +27,7 @@ h3 {
 
 hr {
     border-color: #A7D129;
-    margin: 0 2% 0px 2%;
+    margin: 2%;
 }
 
 div {
@@ -70,13 +70,13 @@ a.nav_button:hover {
 
 /* ####################-CONTENT-#################### */
 
-/* ---------- TOP LOGO ---------- */
+/* +++++++++++++++ TOP LOGO +++++++++++++++ */
 img.page_logo {
     display: block;
     margin: 0px auto 2% auto;
 }
 
-/* ---------- Table of Contents ---------- */
+/* +++++++++++++++ Table of Contents +++++++++++++++ */
 #contents_area {
     display: flex;
     margin: 2% 15% 2% 15%;
@@ -87,6 +87,7 @@ img.page_logo {
 }
 
 li.obj {
+    background-color: #3E432E;
     font-size: 20px;
     font-weight: bold;
     text-align: left;
@@ -127,6 +128,47 @@ a.active_sub:hover {
     text-decoration: underline;
 }
 
+/* +++++++++++++++ SUBJECT AREAS +++++++++++++++ */
+section.section_area {
+    width: 95%;
+    /* border-style: ridge;
+    border-width: 2px;
+    border-color: red; */
+}
+
+h2.section_header {
+    margin-bottom: 1%;
+    background-color: #3E432E;
+    font-size: 20px;
+}
+
+div.subject_area {
+    display: block;
+    margin: 2% 6% 0 6%;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: #616F39;
+    padding: 1%;
+}
+
+h3.subject_header {
+    font-size: 16px;
+    text-align: left;
+    text-decoration: underline;
+}
+
+div.subject_area p, li {
+    text-align: left;
+}
+
+li.details {
+    color: lightgray;
+}
+
+li.details u {
+    color: lightgray;
+}
+
 /* ---------- 3.1 ---------- */
 
 /* ---------- 3.2 ---------- */
@@ -134,6 +176,37 @@ a.active_sub:hover {
 /* ---------- 3.3 ---------- */
 
 /* ---------- 3.4 ---------- */
+/* #mb_form_factors {
+    font-size: 16px;
+}
+
+#mb_connector_types {
+    font-size: 16px;
+}
+
+#mb_compatibility {
+    font-size: 16px;
+}
+
+#bios_settings {
+    font-size: 16px;
+}
+
+#encryption {
+    font-size: 16px;
+}
+
+#cpu_architecture {
+    font-size: 16px;
+}
+
+#expansion_cards {
+    font-size: 16px;
+}
+
+#cooling {
+    font-size: 16px;
+} */
 
 /* ---------- 3.5 ---------- */
 
